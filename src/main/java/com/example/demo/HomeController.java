@@ -22,7 +22,9 @@ public class HomeController {
                                  BindingResult result){
         if (result.hasErrors()){
             return "carform";
-        }return "carddataconfirm";
+
+        }
+        return "carddataconfirm";
     }
 
 }

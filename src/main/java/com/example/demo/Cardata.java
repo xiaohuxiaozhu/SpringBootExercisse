@@ -5,9 +5,9 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 public class Cardata {
-    @NotNull
-    @Min(1)
-    private long id;
+//    @NotNull
+//    @Min(1)
+//    private long id;
 
     @NotNull
     @Size(min=3, max=20)
@@ -22,19 +22,19 @@ public class Cardata {
     @Size(min=10, max = 30)
     private String description;
 
-    public long getId() {
-        return id;
-    }
+//    public long getId() {
+//        return id;
+//    }
+//
+//    public void setId(long id) {
+//        this.id = id;
+//    }
 
-    public void setId(long id) {
-        this.id = id;
-    }
-
-    public String getNameame() {
+    public String getName() {
         return name;
     }
 
-    public void setNamename(String name) {
+    public void setName(String name) {
         this.name = name;
     }
 

@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<html lang="en"
+      xmlns:th="www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Car confirm</title>
 </head>
 <body>
 <p th:inline="text">
-    The car name was [[${carform.name}]].<br/>
-    It is a [[${carform.type}]].<br/>
-    It could be best described as [[${carform.description}]].
+    The car name was [[${cardata.name}]].<br/>
+    It is a [[${cardata.type}]].<br/>
+    It could be best described as [[${cardata.description}]].
 </p>
 </body>
 </html>
